@@ -9,7 +9,7 @@ const users = [];
 
 const tweets = [];
 
-let recentTweets = []; 
+const recentTweets = []; 
 
 app.post('/sign-up', (req, res) => {
   users.push(req.body);
